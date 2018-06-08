@@ -695,6 +695,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
+  text-align: justify;
 }
 
 #faq .member span {
