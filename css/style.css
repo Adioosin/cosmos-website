@@ -1,9 +1,3 @@
-/*
-  Theme Name: Imperial
-  Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
-  Author: BootstrapMade
-  Author URL: https://bootstrapmade.com
-*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -91,9 +85,18 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/her-bg.jpg) top center fixed;
+  background: url(../img/bg-image.jpg) top center fixed;
   background-size: cover;
 }
+
+.inline-block {
+   display: inline-block;
+}
+
+#HASH {
+  display: flex;
+  justify-content: space-between;
+  }
 
 #hero .hero-logo {
   margin: 20px;
@@ -104,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.8);
+
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -128,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
+  font-family: "Raleway", sans-serif;
   color: #999;
   margin-bottom: 50px;
 }
@@ -141,6 +145,10 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 .rotating {
     display: block;
   }
+}
+
+#hero h3{
+  color:white;
 }
 
 #hero .rotating > .animated {
