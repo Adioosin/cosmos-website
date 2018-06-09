@@ -22,7 +22,7 @@
   <!-- MultiStep Form -->
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
-        <form id="msform">
+        <form id="msform" action="index.php" method="post">
             <!-- progressbar -->
             <ul id="progressbar">
                 <li class="active">Institution Details</li>
@@ -34,7 +34,7 @@
                   REGISTRATION FORM</br>
                 <div class="form-group">
                 <label for="sel">Select institution:</label>
-                <select class="form-control" id="sel">
+                <select class="form-control" id="sel" name="college">
                 <option>VIT UNIVERSITY</option>
                 <option>Other Institute</option>
             </select>
@@ -71,7 +71,7 @@
 
     <div class="form-group">
         <label for="team_size">Team Size(including team lead)</label>
-            <select class="form-control" id="team_size">
+            <select class="form-control" id="team_size" name="team_size">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -137,9 +137,9 @@
     
     </br>
     <input type="button" name="previous" class="previous action-button" value="Previous" />
-    <input type="submit" name="submit" id="submit" class="submit action-button" value="Submit" />
+    
   </fieldset>
-
+    <button type="submit" name="submit" id="submit" class="submit action-button" value="Submit" />
 
         </form>
     </div>
