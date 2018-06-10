@@ -8,7 +8,7 @@ if (mysqli_connect_errno()) {
 }
 
 $college = $_POST['college'];
-if($college == "Other Institute"){
+if($college == "Non VITian"){
 	$college = $_POST['inst'];
 }
 $team_name = $_POST["team_name"];
