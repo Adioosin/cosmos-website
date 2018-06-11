@@ -2,11 +2,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>MAKEATHON Registration Form</title>
+  <title>Cosmos360 Registration Form</title>
       <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+    <link href="favicon.ico" rel="shortcut icon">
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
@@ -35,10 +35,10 @@ return true;
             <ul id="progressbar">
                 <li class="active">Institution Details</li>
                 <li>Personal Details</li>
-                <li>Team Details</li>
+                <li>Completion</li>
             </ul>
             <!-- fieldsets -->
-            <fieldset id="first">
+            <fieldset id="first" style="color: white;">
                   REGISTRATION FORM
 				  </br>
                 <div class="form-group">
@@ -55,7 +55,7 @@ return true;
             </fieldset>
 			
 			<fieldset id="second">
-				<h2 class="fs-title">Personal Details</h2>
+				<h2 class="fs-title" style="color: white;">Personal Details</h2>
 				</br>
 				<label for="Team_name"></label>
 				<input type="text" name="team_name" placeholder="Team Name*" id="team_name" required></input>
@@ -73,7 +73,7 @@ return true;
 				<input type="Number" name="mobile" placeholder="Mobile Number*" id="mobile" required ></input>
 				</br>
 				<div class="form-group">
-					<label for="team_size">Team Size(including team lead)</label>
+					<label for="team_size" style="color: white;">Team Size(including team lead)</label>
 					<select class="form-control" id="team_size" name="team_size">
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -82,12 +82,13 @@ return true;
 				</div>
 				<input type="button" name="previous" class="previous action-button" value="Previous" ></input>
 				<input type="button" id="next1" class="next action-button" value="Next" ></input>
+				<button type="submit" name="submit" id="submit" class="submit action-button" value="Submit">Submit
 			</fieldset>
 			
 			<fieldset id="third">
-				<h2 id="title_t" class="fs-title">Team Details (excluding you)</h2>
+				<h2 id="title_t" class="fs-title" style="color: white;">Team Details (excluding you)</h2>
 				<div id="lone">
-					<h2 class="fs-title">You Are a Lone Wolf no Team Details Required Just click Submit</h2>
+					<h2 class="fs-title" style="color: white;">You Are a Lone Wolf no Team Details Required Just click Submit</h2>
 				</div>    
 				<div id="tmem1" style="padding:20px;">
 					<h2>Team Member 1</h2></br>
@@ -120,7 +121,7 @@ return true;
 				</div>
 				</br>
 				<!--<input type="button" name="previous" class="previous action-button" value="Previous" ></input>-->
-<button type="submit" name="submit" id="submit" class="submit action-button" value="Submit">Submit
+
 			</fieldset>
     
 		</button>

@@ -14,7 +14,7 @@ html {
       display: table;
   width: 97%;
   height: 100vh;
-  background: url(../img/bg-image.jpg) top center fixed;
+  background: url(../img/back2.jpg) top center fixed;
   background-size: cover;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 #msform fieldset {
-    background: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     border: 0 none;
     border-radius: 0px;
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
