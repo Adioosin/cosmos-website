@@ -126,14 +126,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 426px) {
   #hero h2 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 26px;
     margin-bottom: 30px;
   }
   #hero h2 .rotating {
     display: block;
+  }
+}
+
+@media (max-width: 426px) {
+  #hero h3 {
+    font-size: 19px;
   }
 }
 
@@ -476,10 +482,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
+#para{
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 426px) {
+  #para {
+    font-size: 17px;
+  }
+}
 /* Get Started Section
 --------------------------------*/
 #about {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/back2.jpg") fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/back2.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -509,7 +526,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* dayof Section
 --------------------------------*/
 #dayof {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/back2.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/back2.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -560,7 +577,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* applynew Section
 --------------------------------*/
 #applynew {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back2.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back2.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -603,7 +620,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* sponsor Section
 --------------------------------*/
 #sponsor {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back2.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back2.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -682,7 +699,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #faq {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back2.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back2.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -709,7 +726,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back2.jpg) fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back2.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
