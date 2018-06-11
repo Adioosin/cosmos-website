@@ -8,7 +8,7 @@
 
 body {
   background: #fff;
-  color: #666666;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -85,18 +85,9 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/bg-image.jpg) top center fixed;
+  background: url(../img/bg.jpg) top center fixed;
   background-size: cover;
 }
-
-.inline-block {
-   display: inline-block;
-}
-
-#HASH {
-  display: flex;
-  justify-content: space-between;
-  }
 
 #hero .hero-logo {
   margin: 20px;
@@ -107,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-
+  background: rgba(0, 0, 0, 0);
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -131,7 +122,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  font-family: "Raleway", sans-serif;
   color: #999;
   margin-bottom: 50px;
 }
@@ -145,10 +135,6 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 .rotating {
     display: block;
   }
-}
-
-#hero h3{
-  color:white;
 }
 
 #hero .rotating > .animated {
@@ -470,7 +456,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-title {
   font-size: 32px;
-  color: #111;
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -493,12 +479,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/back2.jpg") fixed center center;
+  background-size: cover;
   padding: 80px 0;
 }
 
 #about .about-container {
-  background: url(../img/about-img.jpg) left top no-repeat;
+  background: url(../img/bg.jpg) left top no-repeat;
 }
 
 #about .about-content {
@@ -522,7 +509,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* dayof Section
 --------------------------------*/
 #dayof {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/4.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/back2.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -546,11 +533,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #dayof .day-item:hover .day-icon {
-  background: #fff;
+  background: #000;
 }
 
 #dayof .day-item:hover .day-icon strong {
-  color: #FF2C57;
+  color: #fff;
 }
 
 #dayof .day-title {
@@ -573,7 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* applynew Section
 --------------------------------*/
 #applynew {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/4.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back2.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -616,7 +603,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* sponsor Section
 --------------------------------*/
 #sponsor {
-  background: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back2.jpg) fixed center center;
+  background-size: cover;
   padding: 80px 0;
 }
 
@@ -632,9 +620,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+#about .sponsor-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
 #sponsor .sponsor-item .details {
   height: 260px;
-  background: #fff;
+  background: #000;
   display: table-cell;
   vertical-align: middle;
   opacity: 0;
@@ -650,12 +650,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
   font-weight: 700;
-  color: #333333;
+  color: #fff;
 }
 
 #sponsor .sponsor-item .details span {
   display: block;
-  color: #666666;
+  color: #fff;
   font-size: 13px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -682,7 +682,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #faq {
-  background: #f6f6f6;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back2.jpg) fixed center center;
+  background-size: cover;
   padding: 80px 0 60px 0;
 }
 
@@ -708,7 +709,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back2.jpg) fixed center center;
+  background-size: cover;
   padding: 80px 0;
 }
 
